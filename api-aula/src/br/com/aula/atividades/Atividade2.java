@@ -24,10 +24,19 @@ public class Atividade2 {
 		
 		switch (operacao) {
 		case 1:
-			//TODO
+			System.out.println(n1 + n2);
 			break;
-
+		case 2:
+			System.out.println(n1 - n2);
+			break;
+		case 3:
+			System.out.println(n1 * n2);
+			break;
+		case 4:
+			System.out.println(n1 / n2);
+			break;
 		default:
+			System.out.println("Não selecionou uma opção válida");
 			break;
 		}
 	}
